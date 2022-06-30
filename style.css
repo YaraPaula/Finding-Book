@@ -1,0 +1,216 @@
+/*Imagem*/
+.login img {
+  width: 93px;
+  height: 133px;
+  margin-top: 14px;
+}
+/*Especificacoes da pagina*/
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+/*Quadrado*/
+.quadrado {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 468px;
+  height: 460px;
+  align-items: center;
+
+  border: 1px dashed #38b6ff;
+  border-radius: 50px;
+}
+/*Form email/senha/etc*/
+.email {
+  width: 396px;
+  height: 38px;
+  margin-top: 23px;
+  border: 1px solid #38b6ff;
+}
+/*Centralizar os botoes*/
+.containerButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*Botao azul escuro*/
+.botaoc {
+  width: 80%;
+  height: 58px;
+  margin-top: 28px;
+  border-radius: 100px;
+  background-color: #24aaf8;
+  border: #24aaf8;
+  color: white;
+  font-size: 24px;
+}
+/*Botao azul claro*/
+.botaonc {
+  width: 80%;
+  height: 58px;
+  margin-top: 28px;
+  border-radius: 100px;
+  background-color: #63c6ff;
+  border: #63c6ff;
+  color: white;
+  font-size: 24px;
+}
+/*Background Home*/
+.bg {
+  background-color: #cdecfe;
+}
+/*Menu*/
+.menu {
+  position: absolute;
+  width: 1325px;
+  height: 80px;
+
+  background: #38b6ff;
+}
+/*Logo do Menu*/
+.menu img {
+  position: absolute;
+  width: 120px;
+  height: 80px;
+  left: 1px;
+  top: 0px;
+}
+/*Searchbar menu*/
+.searchbar {
+  position: absolute;
+  width: 845px;
+  height: 40px;
+  left: 160px;
+  top: 20px;
+  border: white;
+}
+/*Icone do searchbar*/
+.menu svg {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 970px;
+  top: 26px;
+}
+/*Submenu*/
+.submenu {
+  position: absolute;
+  width: 1325px;
+  height: 35px;
+  left: 0px;
+  top: 80px;
+  background: #63c6ff;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+/*Submenu fonte*/
+.submenu a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 33px;
+  margin: 33px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.submenu a:hover{
+  color:#ffffff;
+}
+/*Background recomendação*/
+.recomendacao {
+  position: absolute;
+  width: 1255px;
+  height: 300px;
+  left: 35px;
+  top: 159px;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+/*Fonte recomendação*/
+.recomendacao font {
+  position: absolute;
+  width: 356px;
+  height: 37px;
+  margin-left: 50px;
+  top: 15px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #000000;
+}
+/*Link para a recomendacao*/
+.recomendacao a {
+  position: absolute;
+  width: 60px;
+  height: 15px;
+  margin-left: 415px;
+  top: 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #0f6293;
+}
+.recomendacao a:hover {
+  color: #0f6293;
+}
+/*Card livro*/
+.cardbook {
+  position: absolute;
+  width: 165px;
+  height: 225px;
+  left: 50px;
+  top: 60px;
+  background: #e4e3e3;
+  border-radius: 5px;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardbook:hover {
+  background: #8fd6ff;
+}
+/*Imagem do livro no card*/
+.cardbook img {
+  position: absolute;
+  width: 141px;
+  height: 160px;
+  top: 15px;
+  border-radius: 5px;
+
+  background: #ffffff;
+}
+/*Fonte do card*/
+.cardbook font {
+  position: absolute;
+  top: 180px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+
+  color: #000000;
+}
