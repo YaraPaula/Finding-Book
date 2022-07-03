@@ -1,4 +1,4 @@
-/*Imagem*/
+/*Login imagem*/
 .login img {
   width: 93px;
   height: 133px;
@@ -67,27 +67,27 @@
 }
 /*Menu*/
 .menu {
-  position: absolute;
-  width: 1325px;
+  width: 100%;
   height: 80px;
+  top: 0px;
+
+  display: flex;
+  align-items: center;
 
   background: #38b6ff;
 }
 /*Logo do Menu*/
 .menu img {
-  position: absolute;
   width: 120px;
   height: 80px;
-  left: 1px;
   top: 0px;
 }
 /*Searchbar menu*/
 .searchbar {
-  position: absolute;
-  width: 845px;
+  width: 510%;
   height: 40px;
-  left: 160px;
-  top: 20px;
+  margin-left: 25%;
+  margin-top: 10%;
   border: white;
 }
 /*Icone do searchbar*/
@@ -95,15 +95,30 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  left: 970px;
+  left: 77%;
   top: 26px;
+}
+/*Conta*/
+.conta {
+  position: absolute;
+  width: 224px;
+  height: 58px;
+  left: 79%;
+  top: 15px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #FFFFFF;
 }
 /*Submenu*/
 .submenu {
-  position: absolute;
-  width: 1325px;
+  width: 100%;
   height: 35px;
-  left: 0px;
   top: 80px;
   background: #63c6ff;
   align-items: center;
@@ -118,35 +133,27 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 33px;
-  margin: 33px;
+  margin-left: 4%;
   text-decoration: none;
   color: #ffffff;
 }
-.submenu a:hover{
-  color:#ffffff;
+.submenu a:hover {
+  color: #ffffff;
 }
 /*Background recomendação*/
 .recomendacao {
-  position: absolute;
-  width: 1255px;
+  width: 95%;
   height: 300px;
-  left: 35px;
-  top: 159px;
-  align-items: center;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
+  margin-left: 35px;
+  margin-top: 40px;
 
   background: #ffffff;
   border-radius: 10px;
 }
 /*Fonte recomendação*/
 .recomendacao font {
-  position: absolute;
-  width: 356px;
   height: 37px;
   margin-left: 50px;
-  top: 15px;
 
   font-family: "Inter";
   font-style: normal;
@@ -158,11 +165,8 @@
 }
 /*Link para a recomendacao*/
 .recomendacao a {
-  position: absolute;
-  width: 60px;
+  margin-left: 15px;
   height: 15px;
-  margin-left: 415px;
-  top: 30px;
 
   font-family: "Inter";
   font-style: normal;
@@ -174,14 +178,21 @@
 .recomendacao a:hover {
   color: #0f6293;
 }
+/*Ajustar os cards*/
+.containerCards {
+  display: flex;
+  flex-direction: row;
+}
 /*Card livro*/
 .cardbook {
-  position: absolute;
   width: 165px;
   height: 225px;
-  left: 50px;
-  top: 60px;
+
   background: #e4e3e3;
+  margin-top: 25px;
+  margin-left: 45px;
+  text-align: center;
+
   border-radius: 5px;
   align-items: center;
   box-sizing: border-box;
@@ -194,23 +205,98 @@
 }
 /*Imagem do livro no card*/
 .cardbook img {
-  position: absolute;
   width: 141px;
   height: 160px;
-  top: 15px;
+  margin-top: 10px;
   border-radius: 5px;
 
   background: #ffffff;
 }
 /*Fonte do card*/
-.cardbook font {
-  position: absolute;
-  top: 180px;
+.cardbook h1 {
+  margin-top: 5px;
 
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
+
+  color: #000000;
+}
+/*Fonte Resultados*/
+.resultadofonte {
+  margin-left: 5%;
+  top: 5%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: #000000;
+}
+.allResultados{
+  display: flex;
+  flex-direction: row;
+}
+.resultadoLivro{
+  margin-top: 3%;
+  margin-left: 5%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+/*Imagem de cada livro*/
+.resultadoLivro img {
+  width: 175px;
+  height: 235px;
+  left: 0%;
+  top: 70px;
+
+  background: #5b5757;
+}
+/*Fonte nome do livro*/
+.resultadoLivro font {
+  width: 180px;
+  height: 19px;
+  left: 0%;
+  top: 310px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+/*Fonte edição e autor*/
+.resultadoLivro span {
+  width: 163px;
+  height: 68px;
+  left: 0%;
+  top: 330px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #5b5757;
+}
+/*Fonte preço*/
+.resultadoLivro h1 {
+  width: 163px;
+  height: 68px;
+  top: 50px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 
   color: #000000;
 }
