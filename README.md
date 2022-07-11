@@ -1,5 +1,4 @@
 # Findig-Book
-# NOME DO PROJETO
 
 O projeto se baseia na ideia de uma livraria virtual, onde é possível reservar, alterar, adicionar e excluir livros. Além de alterar os status de usuários.
 
