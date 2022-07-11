@@ -15,7 +15,7 @@ Javascript, Vue, Vue-router, CSS.
 
 **Backend:**
 
-MongoDB, JSON, AJAX, Javascript
+MongoDB, JSON, AJAX, Javascript, Express
 
 ## Papaeis ou tipos de usuario do sistema
 
