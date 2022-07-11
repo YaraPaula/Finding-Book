@@ -1,11 +1,11 @@
 # Findig-Book
 # NOME DO PROJETO
 
-Breve descriÃ§Ã£o do que o seu projeto faz.
+O projeto se baseia na ideia de uma livraria virtual, onde é possível reservar, alterar, adicionar e excluir livros. Além de alterar os status de usuários.
 
 ## Membros da equipe
 
-- Nome do dos participantes
+- Yara Paula Pereira Mendonça
 
 ## Tecnologias e frameworks utilizados
 
